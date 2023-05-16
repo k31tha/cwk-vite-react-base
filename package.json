@@ -10,7 +10,10 @@
     "preview": "vite preview",
     "check-types": "tsc",
     "check-prettier": "prettier --check ./src",
-    "prettier": "prettier --write ./src"
+    "prettier": "prettier --write ./src",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "ui": "vitest --ui"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -24,6 +27,8 @@
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "@vitejs/plugin-react": "^4.0.0",
+    "@vitest/coverage-c8": "^0.31.0",
+    "@vitest/ui": "^0.31.0",
     "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-react-app": "^7.0.1",
